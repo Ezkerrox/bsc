@@ -22,10 +22,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/eth/protocols/eth"
+	"github.com/Ezkerrox/bsc/internal/utesting"
 )
 
 // sendTxs sends the given transactions to the node and

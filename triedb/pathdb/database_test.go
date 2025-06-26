@@ -23,14 +23,14 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/rawdb"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/crypto"
+	"github.com/Ezkerrox/bsc/internal/testrand"
+	"github.com/Ezkerrox/bsc/rlp"
+	"github.com/Ezkerrox/bsc/trie"
+	"github.com/Ezkerrox/bsc/trie/trienode"
 	"github.com/holiman/uint256"
 )
 

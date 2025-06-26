@@ -19,9 +19,9 @@ package catalyst
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/core/types"
 )
 
 // simulatedBeaconAPI provides a RPC API for SimulatedBeacon.

@@ -27,13 +27,13 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/consensus"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/ethdb"
+	"github.com/Ezkerrox/bsc/internal/ethapi"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/params"
 )
 
 // Snapshot is the state of the validatorSet at a given point.

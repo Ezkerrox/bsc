@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Ezkerrox/bsc/rlp"
 )
 
 func nodeToBytes(n node) []byte {

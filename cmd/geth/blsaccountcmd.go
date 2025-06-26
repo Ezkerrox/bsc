@@ -25,11 +25,11 @@ import (
 	"github.com/urfave/cli/v2"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/signer/core"
+	"github.com/Ezkerrox/bsc/cmd/utils"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/crypto"
+	"github.com/Ezkerrox/bsc/internal/flags"
+	"github.com/Ezkerrox/bsc/signer/core"
 )
 
 const (

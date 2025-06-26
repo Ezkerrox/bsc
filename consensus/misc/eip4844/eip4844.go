@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/params/forks"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/params"
+	"github.com/Ezkerrox/bsc/params/forks"
 )
 
 var (

@@ -32,11 +32,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/Ezkerrox/bsc/internal/testlog"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/p2p/discover/v4wire"
+	"github.com/Ezkerrox/bsc/p2p/enode"
+	"github.com/Ezkerrox/bsc/p2p/enr"
 )
 
 // shared test variables

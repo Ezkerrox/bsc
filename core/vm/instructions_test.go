@@ -25,12 +25,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/math"
+	"github.com/Ezkerrox/bsc/core/state"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/crypto"
+	"github.com/Ezkerrox/bsc/params"
 	"github.com/holiman/uint256"
 )
 

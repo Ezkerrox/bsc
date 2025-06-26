@@ -3,7 +3,7 @@ package vm
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Ezkerrox/bsc/common"
 	"github.com/holiman/uint256"
 )
 

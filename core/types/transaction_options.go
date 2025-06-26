@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/hexutil"
 )
 
 type AccountStorage struct {

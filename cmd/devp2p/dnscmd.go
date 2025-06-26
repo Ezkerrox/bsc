@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Ezkerrox/bsc/accounts/keystore"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/console/prompt"
+	"github.com/Ezkerrox/bsc/p2p/dnsdisc"
+	"github.com/Ezkerrox/bsc/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

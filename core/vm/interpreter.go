@@ -19,11 +19,11 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/math"
+	"github.com/Ezkerrox/bsc/core/tracing"
+	"github.com/Ezkerrox/bsc/crypto"
+	"github.com/Ezkerrox/bsc/log"
 	"github.com/holiman/uint256"
 )
 

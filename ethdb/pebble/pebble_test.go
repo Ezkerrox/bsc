@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/Ezkerrox/bsc/ethdb"
+	"github.com/Ezkerrox/bsc/ethdb/dbtest"
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/vfs"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/dbtest"
 )
 
 func TestPebbleDB(t *testing.T) {

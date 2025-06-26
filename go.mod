@@ -316,6 +316,7 @@ require (
 )
 
 replace (
+
 	github.com/cometbft/cometbft => github.com/bnb-chain/greenfield-cometbft v1.3.1
 	github.com/tendermint/tendermint => github.com/bnb-chain/tendermint v0.31.16
 )

@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Ezkerrox/bsc"
+	"github.com/Ezkerrox/bsc/common/gopool"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/event"
+	"github.com/Ezkerrox/bsc/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

@@ -32,9 +32,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/hexutil"
+	"github.com/Ezkerrox/bsc/rlp"
 	"github.com/ethereum/go-verkle"
 )
 

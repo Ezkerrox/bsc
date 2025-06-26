@@ -22,15 +22,15 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/lru"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/core/state"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/event"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/params"
+	"github.com/Ezkerrox/bsc/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

@@ -7,15 +7,15 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/systemcontracts"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/hexutil"
+	"github.com/Ezkerrox/bsc/consensus"
+	"github.com/Ezkerrox/bsc/core/systemcontracts"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/internal/ethapi"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/params"
+	"github.com/Ezkerrox/bsc/rpc"
 )
 
 func (p *Parlia) getTurnLength(chain consensus.ChainHeaderReader, header *types.Header) (*uint8, error) {

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/protocols/trust"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/eth/protocols/trust"
+	"github.com/Ezkerrox/bsc/p2p/enode"
 )
 
 // trustHandler implements the trust.Backend interface to handle the various network

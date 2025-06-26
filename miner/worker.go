@@ -28,24 +28,24 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/consensus/parlia"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/systemcontracts"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/miner/minerconfig"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/consensus"
+	"github.com/Ezkerrox/bsc/consensus/misc/eip1559"
+	"github.com/Ezkerrox/bsc/consensus/misc/eip4844"
+	"github.com/Ezkerrox/bsc/consensus/parlia"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/core/state"
+	"github.com/Ezkerrox/bsc/core/stateless"
+	"github.com/Ezkerrox/bsc/core/systemcontracts"
+	"github.com/Ezkerrox/bsc/core/txpool"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/core/vm"
+	"github.com/Ezkerrox/bsc/event"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/metrics"
+	"github.com/Ezkerrox/bsc/miner/minerconfig"
+	"github.com/Ezkerrox/bsc/params"
+	"github.com/Ezkerrox/bsc/trie"
 )
 
 const (
@@ -1500,7 +1500,7 @@ func (w *worker) commit(env *environment, interval func(), update bool, start ti
 			env.sidecars = make(types.BlobSidecars, 0)
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/ethereum/go-ethereum/issues/24299
+		// https://github.com/Ezkerrox/bsc/issues/24299
 		env := env.copy()
 
 		block = block.WithSidecars(env.sidecars)

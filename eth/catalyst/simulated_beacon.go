@@ -24,16 +24,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Ezkerrox/bsc/beacon/engine"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/txpool"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/crypto/kzg4844"
+	"github.com/Ezkerrox/bsc/eth"
+	"github.com/Ezkerrox/bsc/event"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/node"
+	"github.com/Ezkerrox/bsc/rpc"
 )
 
 const devEpochLength = 32

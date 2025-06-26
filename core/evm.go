@@ -19,13 +19,13 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/consensus"
+	"github.com/Ezkerrox/bsc/consensus/misc/eip4844"
+	"github.com/Ezkerrox/bsc/core/tracing"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/core/vm"
+	"github.com/Ezkerrox/bsc/params"
 	"github.com/holiman/uint256"
 )
 

@@ -20,14 +20,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/eth/downloader"
+	"github.com/Ezkerrox/bsc/eth/ethconfig"
+	"github.com/Ezkerrox/bsc/eth/protocols/eth"
+	"github.com/Ezkerrox/bsc/eth/protocols/snap"
+	"github.com/Ezkerrox/bsc/p2p"
+	"github.com/Ezkerrox/bsc/p2p/enode"
+	"github.com/Ezkerrox/bsc/params"
 	"github.com/stretchr/testify/require"
 )
 

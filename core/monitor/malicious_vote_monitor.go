@@ -3,9 +3,9 @@ package monitor
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/metrics"
 	lru "github.com/hashicorp/golang-lru"
 )
 

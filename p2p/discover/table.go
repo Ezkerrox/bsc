@@ -30,13 +30,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/gopool"
+	"github.com/Ezkerrox/bsc/common/mclock"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/metrics"
+	"github.com/Ezkerrox/bsc/p2p/enode"
+	"github.com/Ezkerrox/bsc/p2p/netutil"
 )
 
 const (

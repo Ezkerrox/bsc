@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/internal/era"
+	"github.com/Ezkerrox/bsc/internal/ethapi"
+	"github.com/Ezkerrox/bsc/internal/flags"
+	"github.com/Ezkerrox/bsc/params"
+	"github.com/Ezkerrox/bsc/trie"
 	"github.com/urfave/cli/v2"
 )
 

@@ -23,17 +23,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner/minerconfig"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/consensus"
+	"github.com/Ezkerrox/bsc/core"
+	"github.com/Ezkerrox/bsc/core/state"
+	"github.com/Ezkerrox/bsc/core/txpool"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/eth/downloader"
+	"github.com/Ezkerrox/bsc/event"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/miner/minerconfig"
+	"github.com/Ezkerrox/bsc/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable

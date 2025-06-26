@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/testrand"
+	"github.com/Ezkerrox/bsc/ethdb"
+	"github.com/Ezkerrox/bsc/internal/testrand"
 )
 
 // TestAncientSuite runs a suite of tests against an ancient database

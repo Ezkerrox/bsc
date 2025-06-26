@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/consensus/misc"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/params"
 )
 
 // VerifyEIP1559Header verifies some header attributes which were changed in EIP-1559,

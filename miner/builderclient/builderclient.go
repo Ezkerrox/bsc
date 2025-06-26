@@ -3,8 +3,8 @@ package builderclient
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Ezkerrox/bsc/core/types"
+	"github.com/Ezkerrox/bsc/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

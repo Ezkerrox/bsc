@@ -20,13 +20,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/rawdb"
+	"github.com/Ezkerrox/bsc/core/txpool"
+	"github.com/Ezkerrox/bsc/eth/downloader"
+	"github.com/Ezkerrox/bsc/eth/ethconfig"
+	"github.com/Ezkerrox/bsc/eth/protocols/eth"
+	"github.com/Ezkerrox/bsc/log"
 )
 
 const (

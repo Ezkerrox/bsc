@@ -28,10 +28,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/Ezkerrox/bsc/common/gopool"
+	"github.com/Ezkerrox/bsc/metrics"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Ezkerrox/bsc/log"
 )
 
 var (

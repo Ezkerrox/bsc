@@ -1,6 +1,6 @@
 package trust
 
-import "github.com/ethereum/go-ethereum/rlp"
+import "github.com/Ezkerrox/bsc/rlp"
 
 // enrEntry is the ENR entry which advertises `trust` protocol on the discovery.
 type enrEntry struct {

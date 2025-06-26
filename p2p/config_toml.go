@@ -5,11 +5,11 @@ package p2p
 import (
 	"crypto/ecdsa"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/p2p/enode"
+	"github.com/Ezkerrox/bsc/p2p/nat"
+	"github.com/Ezkerrox/bsc/p2p/netutil"
 )
 
 var _ = (*configMarshaling)(nil)

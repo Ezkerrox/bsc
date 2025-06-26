@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Ezkerrox/bsc/log"
 	"github.com/fsnotify/fsnotify"
 )
 

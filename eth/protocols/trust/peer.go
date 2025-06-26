@@ -3,9 +3,9 @@ package trust
 import (
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `trust` peer.

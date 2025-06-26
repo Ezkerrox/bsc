@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/trie/trienode"
 )
 
 type RefTrieNode struct {

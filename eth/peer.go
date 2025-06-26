@@ -19,11 +19,11 @@ package eth
 import (
 	"net"
 
-	"github.com/ethereum/go-ethereum/eth/protocols/bsc"
-	"github.com/ethereum/go-ethereum/eth/protocols/trust"
+	"github.com/Ezkerrox/bsc/eth/protocols/bsc"
+	"github.com/Ezkerrox/bsc/eth/protocols/trust"
 
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
+	"github.com/Ezkerrox/bsc/eth/protocols/eth"
+	"github.com/Ezkerrox/bsc/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

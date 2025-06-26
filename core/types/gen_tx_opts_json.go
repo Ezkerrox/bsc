@@ -5,7 +5,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/Ezkerrox/bsc/common/hexutil"
 )
 
 // MarshalJSON marshals as JSON.

@@ -6,7 +6,7 @@ import (
 
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Ezkerrox/bsc/common"
 )
 
 // mockPeer is a simplified p2p.Peer for testing purposes
