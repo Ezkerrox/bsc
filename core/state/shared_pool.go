@@ -3,7 +3,7 @@ package state
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Ezkerrox/bsc/common"
 )
 
 // StoragePool is used to store maps of originStorage of stateObjects

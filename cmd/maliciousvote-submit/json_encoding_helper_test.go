@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Ezkerrox/bsc/log"
 )
 
 func TestSlashIndicatorFinalityEvidenceEncoding(t *testing.T) {

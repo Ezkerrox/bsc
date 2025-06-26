@@ -4,11 +4,11 @@ import (
 	"context"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/crypto/kzg4844"
+	"github.com/Ezkerrox/bsc/internal/ethapi"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/rpc"
 )
 
 type BlobSidecar struct {

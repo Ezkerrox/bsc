@@ -3,7 +3,7 @@ package bidutil
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Ezkerrox/bsc/core/types"
 )
 
 // BidBetterBefore returns the time when the next bid better be received, considering the delay and bid simulation.

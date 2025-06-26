@@ -20,14 +20,14 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/triedb/database"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/rawdb"
+	"github.com/Ezkerrox/bsc/ethdb"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/trie/trienode"
+	"github.com/Ezkerrox/bsc/triedb/database"
+	"github.com/Ezkerrox/bsc/triedb/hashdb"
+	"github.com/Ezkerrox/bsc/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

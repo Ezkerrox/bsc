@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/Ezkerrox/bsc/common"
 	"github.com/consensys/gnark-crypto/ecc"
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/ethereum/go-ethereum/common"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

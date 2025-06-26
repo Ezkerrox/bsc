@@ -26,13 +26,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Ezkerrox/bsc/common/mclock"
+	"github.com/Ezkerrox/bsc/event"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/metrics"
+	"github.com/Ezkerrox/bsc/p2p/enode"
+	"github.com/Ezkerrox/bsc/p2p/enr"
+	"github.com/Ezkerrox/bsc/rlp"
 )
 
 var (

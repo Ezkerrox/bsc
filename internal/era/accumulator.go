@@ -23,7 +23,7 @@ import (
 
 	ssz "github.com/bnb-chain/fastssz"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Ezkerrox/bsc/common"
 )
 
 // ComputeAccumulator calculates the SSZ hash tree root of the Era1

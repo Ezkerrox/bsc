@@ -8,10 +8,10 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/ethdb"
+	"github.com/Ezkerrox/bsc/log"
+	"github.com/Ezkerrox/bsc/trie/trienode"
 )
 
 var _ trienodebuffer = &asyncnodebuffer{}

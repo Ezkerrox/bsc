@@ -1,7 +1,7 @@
 package bsc
 
 import (
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Ezkerrox/bsc/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `bsc` protocol on the discovery.

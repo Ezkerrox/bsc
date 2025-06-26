@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/core/types"
 	"github.com/cometbft/cometbft/libs/rand"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -255,7 +255,7 @@ func createLargeTestTx(nonce uint64, gasPrice *big.Int, dataSize int) *types.Tra
 
 // goos: darwin
 // goarch: arm64
-// pkg: github.com/ethereum/go-ethereum/core/txpool/legacypool
+// pkg: github.com/Ezkerrox/bsc/core/txpool/legacypool
 // BenchmarkTxOverflowPoolHeapAdd-8              	  813326	      2858 ns/op
 func BenchmarkTxOverflowPoolHeapAdd(b *testing.B) {
 	pool := NewTxOverflowPoolHeap(uint64(b.N))

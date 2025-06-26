@@ -5,8 +5,8 @@ The goal of BNB Smart Chain is to bring programmability and interoperability to 
 BNB Smart Chain starts its development based on go-ethereum fork. So you may see many toolings, binaries and also docs are based on Ethereum ones, such as the name "geth".
 
 [![API Reference](
-https://pkg.go.dev/badge/github.com/ethereum/go-ethereum
-)](https://pkg.go.dev/github.com/ethereum/go-ethereum?tab=doc)
+https://pkg.go.dev/badge/github.com/Ezkerrox/bsc
+)](https://pkg.go.dev/github.com/Ezkerrox/bsc?tab=doc)
 [![Build Test](https://github.com/bnb-chain/bsc/actions/workflows/build-test.yml/badge.svg)](https://github.com/bnb-chain/bsc/actions)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/z2VpC455eU)
 

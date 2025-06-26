@@ -23,8 +23,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/crypto"
 	"github.com/holiman/uint256"
 )
 

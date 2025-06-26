@@ -21,8 +21,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
+	"github.com/Ezkerrox/bsc/cmd/utils"
+	"github.com/Ezkerrox/bsc/console"
 	"github.com/urfave/cli/v2"
 )
 

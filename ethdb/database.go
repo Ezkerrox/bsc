@@ -20,7 +20,7 @@ package ethdb
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Ezkerrox/bsc/params"
 )
 
 // KeyValueReader wraps the Has and Get method of a backing data store.

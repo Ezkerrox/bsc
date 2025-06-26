@@ -22,8 +22,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params/forks"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

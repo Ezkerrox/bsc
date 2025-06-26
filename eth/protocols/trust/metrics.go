@@ -1,7 +1,7 @@
 package trust
 
 import (
-	metrics "github.com/ethereum/go-ethereum/metrics"
+	metrics "github.com/Ezkerrox/bsc/metrics"
 )
 
 var (

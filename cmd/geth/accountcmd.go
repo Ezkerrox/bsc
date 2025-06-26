@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Ezkerrox/bsc/accounts"
+	"github.com/Ezkerrox/bsc/accounts/keystore"
+	"github.com/Ezkerrox/bsc/cmd/utils"
+	"github.com/Ezkerrox/bsc/crypto"
+	"github.com/Ezkerrox/bsc/log"
 	"github.com/urfave/cli/v2"
 )
 

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/Ezkerrox/bsc/internal/ethapi"
 	"github.com/gorilla/mux"
 	"github.com/prysmaticlabs/prysm/v5/api/server"
 )

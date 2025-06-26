@@ -17,7 +17,7 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Ezkerrox/bsc/common"
 )
 
 // EthereumAPI provides an API to access Ethereum full node-related information.

@@ -8,9 +8,9 @@ import (
 
 	mapset "github.com/deckarep/golang-set/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/Ezkerrox/bsc/common"
+	"github.com/Ezkerrox/bsc/common/hexutil"
+	"github.com/Ezkerrox/bsc/crypto"
 )
 
 const TxDecodeConcurrencyForPerBid = 5

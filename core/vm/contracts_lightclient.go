@@ -13,9 +13,9 @@ import (
 	cmn "github.com/tendermint/tendermint/libs/common"
 
 	//nolint:staticcheck
-	v1 "github.com/ethereum/go-ethereum/core/vm/lightclient/v1"
-	v2 "github.com/ethereum/go-ethereum/core/vm/lightclient/v2"
-	"github.com/ethereum/go-ethereum/params"
+	v1 "github.com/Ezkerrox/bsc/core/vm/lightclient/v1"
+	v2 "github.com/Ezkerrox/bsc/core/vm/lightclient/v2"
+	"github.com/Ezkerrox/bsc/params"
 )
 
 const (
